@@ -1,0 +1,83 @@
+html, body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: lightgrey;
+}
+
+.wrapper{
+    width: 375px;
+    margin: 0 auto;
+}
+
+header{
+    width: 375px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+section{
+    width: 375px;
+    background-color: #fff;
+    margin-top: 5px;
+    padding: 50px 0 10px 0;
+}
+
+body, 
+.small-text{
+    margin: 0;
+    padding: 0;
+}
+
+header, 
+.user-info{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 127px;
+    padding: 10px;
+}
+
+.avatar{
+    width: 34px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.user-info{
+    width: 348px;
+    justify-content: flex-start;
+}
+
+p{
+    margin: 0;
+    padding: 5px 10px;
+}
+
+.bold{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.post-img{
+    width: 375px;
+}
+
+.icons{
+    width: 19px;
+    padding: 0 2px;
+    transition: 0.5s;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    opacity: .60;
+}
+
+.icon-wrapper{
+    width: 100px;
+    padding: 6px 10px;
+}

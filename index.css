@@ -9,7 +9,6 @@ html, body {
 }
 
 header{
-    width: 375px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,10 +16,13 @@ header{
 }
 
 section{
-    width: 375px;
     background-color: #fff;
     margin-top: 5px;
-    padding: 50px 0 10px 0;
+    padding: 10px 0;
+}
+
+header, section, .post-img{
+    width: 100%;
 }
 
 body, 
@@ -59,10 +61,6 @@ p{
 .bold{
     font-size: 17px;
     font-weight: 700;
-}
-
-.post-img{
-    width: 375px;
 }
 
 .icons{
